@@ -316,7 +316,7 @@
 .sec-7-content {
   width: 1300px;
   margin: 0 auto;
-  padding: 70px 15px 0 15px;
+  padding: 10px 15px 0 15px;
   display: flex;
   flex-direction: row;
 }
@@ -520,11 +520,11 @@
 .sec-9-root {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 30px 10px 30px 15px;
+  padding: 30px 10px 10px 15px;
 }
 .sec-9-content {
   padding: 15px;
-  margin: 60px 0 40px 0;
+  margin: 0;
 }
 .sec-9-heading {
   display: flex;
@@ -672,7 +672,7 @@
 }
 .sec-11-content {
   padding: 15px;
-  margin: 50px 0;
+  margin: 0;
 }
 .sec-11-top-div span {
   font-family: "Poppins", sans-serif;
@@ -720,11 +720,11 @@
 .sec-13-root {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 5px 10px 30px 15px;
+  padding: 5px 10px 0px 15px;
 }
 .sec-13-content {
   padding: 15px;
-  margin: 20px 0 20px 0;
+  margin: 0;
 }
 .sec-13-content h2 {
   font-family: "Poppins", sans-serif;
@@ -2236,21 +2236,21 @@
     padding: 0;
   }
 
- /* sec-9 */
- .sec-9-content {
-  padding: 0;
-  margin: 0;
-}
-.sec-9-heading h2 {
-  font-size: 29px;
-  max-width: 100%;
-}
-.sec-9-right-down {
-  padding: 0;
-}
-.sec-9-right-down p {
-  font-size: 15px;
-}
+  /* sec-9 */
+  .sec-9-content {
+    padding: 0;
+    margin: 0;
+  }
+  .sec-9-heading h2 {
+    font-size: 29px;
+    max-width: 100%;
+  }
+  .sec-9-right-down {
+    padding: 0;
+  }
+  .sec-9-right-down p {
+    font-size: 15px;
+  }
 
   /* ui-ux-faq-sec */
   .ui-ux-heading-part h2 {
@@ -2266,5 +2266,5 @@
   /* sec-13 */
   .sec-13-content {
     margin: 1px 0 20px 0;
-}
+  }
 }
