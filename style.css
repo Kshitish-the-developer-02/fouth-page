@@ -294,12 +294,14 @@
   max-width: 86%;
   font-size: 19px;
 }
-.sec-6-box-1-right h5 {
+.sec-6-box-1-right span {
   font-family: "Poppins", sans-serif;
   margin-top: 37px;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+  font-size: 15px;
+  font-weight: 700;
 }
 .sec-6-box-1-right i {
   color: black;
@@ -367,10 +369,11 @@
   max-width: 50%;
   padding: 20px;
 }
-.sec-7-right-part h5 {
+.sec-7-right-part span {
   font-family: "Poppins", sans-serif;
   color: blue;
   font-weight: 500;
+  font-size: 14px;
 }
 .sec-7-right-part h2 {
   font-family: "Poppins", sans-serif;
@@ -532,7 +535,7 @@
 }
 .sec-9-heading h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 42px;
+  font-size: 48px;
   max-width: 63%;
   line-height: 1.1;
 }
@@ -559,15 +562,17 @@
   flex-direction: row;
   align-items: center;
 }
-.sec-9-right-top h4 {
+.sec-9-right-top h3 {
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  font-size: 18px;
 }
-.sec-9-right-top h5 {
+.sec-9-right-top p {
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  font-size: 13.28px;
 }
 .sec-9-right-down {
   padding: 24px;
@@ -575,14 +580,14 @@
 .sec-9-right-down p {
   color: white;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   max-width: 75%;
   font-weight: 400;
 }
-.sec-9-right-down h6 {
+.sec-9-right-down h4 {
   font-family: "Poppins", sans-serif;
   color: #006a4e;
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 70px;
   display: flex;
   flex-direction: row;
@@ -615,12 +620,12 @@
 }
 .ui-ux-heading-part h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 42px;
+  font-size: 48px;
   margin: 10px 0 25px 0;
 }
 .ui-ux-heading-part p {
   font-family: "Inter", sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   max-width: 93%;
   line-height: 1.8;
 }
@@ -640,7 +645,7 @@
 }
 .ui-ux-bottom-top p {
   font-family: "Inter", sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 1.4;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -669,13 +674,13 @@
   padding: 15px;
   margin: 50px 0;
 }
-.sec-11-top-div h5 {
+.sec-11-top-div span {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 .sec-11-top-div h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 42px;
+  font-size: 48px;
 }
 .sec-11-bottom-div {
   display: flex;
@@ -701,7 +706,7 @@
   margin-top: 35px;
   width: 64px;
 }
-.sec-11-bottom-div h4 {
+.sec-11-bottom-div h3 {
   font-family: "Poppins", sans-serif;
   font-size: 28px;
 }
@@ -712,7 +717,6 @@
   line-height: 1.45;
 }
 
-/* sec-13 */
 .sec-13-root {
   max-width: 1300px;
   margin: 0 auto;
@@ -724,7 +728,7 @@
 }
 .sec-13-content h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 42px;
+  font-size: 48px;
   max-width: 65%;
   line-height: 1.2;
   padding: 20px;
@@ -735,13 +739,14 @@
   border-right: 1px solid rgb(223 223 223);
   padding: 0 20px 0 30px;
 }
-.sec-13-second-div h5 {
+.sec-13-second-div h3 {
   font-family: "Poppins", sans-serif;
   border-top: 1px solid rgb(223 223 223);
   padding-top: 50px;
   font-weight: 600;
+  font-size: 18px;
 }
-.sec-13-second-div h4 {
+.sec-13-second-div span {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -750,7 +755,7 @@
 .sec-13-second-div p {
   font-family: "Inter", sans-serif;
   margin-top: 11px;
-  font-size: 19px;
+  font-size: 18px;
 }
 .sec-13-botton {
   border-bottom: 1px solid rgb(223 223 223);
@@ -969,7 +974,8 @@
 
   /* nine-section */
   .sec-9-heading h2 {
-    font-size: 35px;
+    font-size: 41px;
+    max-width: 84%;
   }
   .sec-9-second-div {
     padding: 10px 22px;
@@ -992,16 +998,21 @@
   }
   .sec-9-right-down p {
     max-width: 100%;
-    font-size: 13px;
+    font-size: 16px;
   }
-  .sec-9-right-down h6 {
-    font-size: 13px;
+  .sec-9-right-down h4 {
+    font-size: 16px;
     margin-top: 23px;
+  }
+
+  /* ui-us-section */
+  .ui-ux-heading-part h2 {
+    font-size: 41px;
   }
 
   /* sec-11 */
   .sec-11-top-div h2 {
-    font-size: 35px;
+    font-size: 41px;
   }
   .sec-11-bottom-div-1:hover {
     transform: scale(1.1);
@@ -1018,7 +1029,7 @@
     transition: all 0.2s ease;
     padding: 0;
   }
-  .sec-11-bottom-div h4 {
+  .sec-11-bottom-div h3 {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
   }
@@ -1031,37 +1042,32 @@
     width: 54px;
   }
 
-  /* section-13 */
+  /* sec-13 */
   .sec-13-content h2 {
     max-width: 100%;
-    font-size: 35px;
-  }
-
-  /* ui-us-faq-section */
-  .ui-ux-heading-part h2 {
-    font-size: 35px;
+    font-size: 41px;
   }
 }
 
 @media (min-width: 941px) and (max-width: 1024px) {
-/* banner-section */
-.box {
-  padding: 10px;
-}
-.box-row p {
-  font-size: 18px;
-}
+  /* banner-section */
+  .box {
+    padding: 10px;
+  }
+  .box-row p {
+    font-size: 18px;
+  }
 
-/* carousel-section */
-.logo-image img {
-  margin: 15px 8px;
-  width: 146px;
-}
+  /* carousel-section */
+  .logo-image img {
+    margin: 15px 8px;
+    width: 146px;
+  }
 
-/* .third-section */
-.left-side {
-  max-width: 46%;
-}
+  /* .third-section */
+  .left-side {
+    max-width: 46%;
+  }
 
   /* section-6 */
   .sec-6-box-1-right p {
@@ -1100,6 +1106,12 @@
   }
 
   /* nine-section */
+  .sec-9-content {
+    margin: 0;
+  }
+  .sec-9-heading h2 {
+    max-width: 75%;
+  }
   .sec-9-second-div-left img {
     width: 386px;
   }
@@ -1112,11 +1124,16 @@
     font-size: 17px;
     max-width: 100%;
   }
-  .sec-9-right-down h6 {
+  .sec-9-right-down h4 {
     margin-top: 40px;
   }
   .sec-9-second-div-right {
     margin-left: 20px;
+  }
+
+  /* sec-13 */
+  .sec-13-content h2 {
+    max-width: 77%;
   }
 }
 
@@ -1130,10 +1147,6 @@
     font-family: "Inter", sans-serif;
     font-size: 17px;
     max-width: 100%;
-  }
-
-  .eight-sec-content {
-    width: 100%;
   }
 }
 
@@ -1242,7 +1255,6 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
-
 
   /* award-section */
   .award-section-container h2 {
@@ -1394,7 +1406,13 @@
 
   /* nine-section */
   .sec-9-content {
-    margin: 0 0;
+    padding: 15px;
+    margin: 60px 0 0px 0;
+  }
+  .sec-9-root {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 10px 0px 15px;
   }
   .sec-9-heading {
     justify-content: flex-start;
@@ -1417,33 +1435,36 @@
     max-width: 100%;
   }
   .sec-9-second-div-left img {
-    width: 313px;
+    width: 236px;
     margin-top: 12px;
   }
   .sec-9-right-down {
-    padding: 10px 0 0 6px;
+    padding: 10px 0 0 20px;
   }
   .sec-9-right-down p {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     max-width: 100%;
   }
-  .sec-9-right-down h6 {
+  .sec-9-right-down h4 {
     margin-top: 47px;
   }
 
   /* ui-ux-faq-section */
+  .ui-ux-faq-content {
+    padding: 0;
+  }
   .ui-ux-heading-part h2 {
     font-size: 29px;
   }
   .ui-ux-heading-part p {
-    font-size: 15px;
+    font-size: 16px;
     text-align: left;
     max-width: 100%;
   }
   .ui-ux-bottom-part {
-    padding: 5px;
+    padding: 0px;
   }
   .ui-ux-bottom-top i {
     font-size: 28px;
@@ -1462,6 +1483,10 @@
   }
 
   /* section 11 */
+  .sec-11-content {
+    padding: 0;
+    margin: 50px 0;
+  }
   .sec-11-bottom-div {
     display: flex;
     flex-direction: column;
@@ -1469,9 +1494,6 @@
     align-items: center;
     text-align: center;
     gap: 15px;
-  }
-  .sec-11-bottom-div h4 {
-    font-size: 20px;
   }
   .sec-11-bottom-div-1 {
     width: 230px;
@@ -1487,7 +1509,7 @@
   .sec-11-top-div h2 {
     font-size: 29px;
   }
-  .sec-11-top-div h5 {
+  .sec-11-top-div span {
     font-size: 10px;
   }
   .sec-11-bottom-div-1 h2 {
@@ -1495,13 +1517,19 @@
   }
 
   /* section-13 */
+  .sec-13-root {
+    max-width: 100%;
+  }
+  .sec-13-content {
+    margin: 20px 0 20px 0;
+  }
   .sec-13-content h2 {
     font-size: 29px;
     max-width: 100%;
     padding: 0;
   }
   .sec-13-second-div p {
-    font-size: 16px;
+    font-size: 13px;
   }
   .sec-13-botton {
     margin-bottom: 30px;
@@ -1626,7 +1654,6 @@
     max-width: 30%;
   }
 
-
   /* section 6 */
   .sec-6-heading h2 {
     max-width: 90%;
@@ -1702,9 +1729,16 @@
   }
 
   /* nine-section */
+  .sec-9-root {
+    padding: 0;
+    margin: 0;
+  }
+  .sec-9-content {
+    margin: 0;
+  }
   .sec-9-heading h2 {
-    font-size: 35px;
-    max-width: 93%;
+    font-size: 40px;
+    max-width: 100%;
     text-align: left;
   }
   .sec-9-second-div {
@@ -1726,16 +1760,17 @@
   .sec-9-right-down p {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     max-width: 100%;
   }
 
   /* ui-ux-faq-section */
   .ui-ux-heading-part h2 {
-    font-size: 35px;
+    font-size: 40px;
+    /* text-align: left; */
   }
   .ui-ux-heading-part p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .ui-ux-bottom-top i {
     font-size: 35px;
@@ -1743,13 +1778,10 @@
   .ui-ux-bottom-down i {
     font-size: 35px;
   }
-  .ui-ux-bottom-top p {
-    font-size: 17px;
-  }
 
   /* section-11 */
   .sec-11-top-div h2 {
-    font-size: 35px;
+    font-size: 40px;
   }
   .sec-11-bottom-div {
     display: grid;
@@ -1770,11 +1802,12 @@
 
   /* section-13 */
   .sec-13-content h2 {
-    font-size: 35px;
+    font-size: 40px;
     max-width: 100%;
+    padding: 0;
   }
   .sec-13-second-div p {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -2005,14 +2038,19 @@
   }
 
   /* nine-section */
+  .sec-9-root {
+    padding: 0;
+  }
+  .sec-9-content {
+    margin: 0;
+  }
   .sec-9-heading {
     justify-content: flex-start;
     text-align: left;
-    margin-bottom: 25px;
   }
   .sec-9-heading h2 {
-    font-size: 29px;
-    max-width: 83%;
+    font-size: 35px;
+    max-width: 84%;
   }
   .sec-9-second-div {
     flex-direction: column;
@@ -2033,20 +2071,23 @@
   .sec-9-right-down p {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     max-width: 100%;
   }
 
   /* ui-ux-faq-section */
+  .ui-ux-faq-content {
+    padding: 0;
+  }
   .ui-ux-heading-part h2 {
-    font-size: 29px;
+    font-size: 35px;
+    text-align: left;
   }
   .ui-ux-heading-part p {
-    font-size: 15px;
+    font-size: 16px;
     text-align: left;
   }
   .ui-ux-bottom-part {
-    margin-top: 25px;
     padding: 5px;
   }
   .ui-ux-bottom-top i {
@@ -2060,6 +2101,12 @@
   }
 
   /* section 11 */
+  .sec-11-content {
+    margin: 0;
+  }
+  /* .sec-11-root{
+    padding-bottom: 10px;
+  } */
   .sec-11-bottom-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -2076,20 +2123,18 @@
   .sec-11-bottom-div p {
     font-size: 11px;
   }
-  .sec-11-bottom-div h4 {
-    font-size: 20px;
-  }
   .sec-11-top-div h2 {
-    font-size: 29px;
+    font-size: 35px;
   }
-  .sec-11-top-div h5 {
+  .sec-11-top-div span {
     font-size: 11px;
   }
 
   /* section-13 */
   .sec-13-content h2 {
     max-width: 100%;
-    font-size: 29px;
+    font-size: 35px;
+    padding: 0;
   }
   .sec-13-second-div p {
     font-size: 16px;
@@ -2102,28 +2147,28 @@
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
-/* banner-section */
-.banner {
-  padding: 10px 10px;
-}
-.banner h1 {
-  font-size: 30px;
-}
-.box {
-  padding: 5px;
-}
-.box-row p {
-  font-size: 15px;
-}
+  /* banner-section */
+  .banner {
+    padding: 10px 10px;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .box {
+    padding: 5px;
+  }
+  .box-row p {
+    font-size: 15px;
+  }
 
-/* thord-section */
-.heading-part span {
-  line-height: 1.15;
-  font-size: 25px;
-  margin-bottom: 18px;
-}
-   /* award-section */
-   .award-section-container h2 {
+  /* thord-section */
+  .heading-part span {
+    line-height: 1.15;
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+  /* award-section */
+  .award-section-container h2 {
     max-width: 100%;
     font-size: 25px;
     line-height: 1.4;
@@ -2191,26 +2236,21 @@
     padding: 0;
   }
 
-  /* .sec-9 */
-  .sec-9-root {
-    padding: 0 10px;
-  }
-  .sec-9-heading h2 {
-    font-size: 26px;
-    max-width: 100%;
-  }
-  .sec-9-content {
-    padding: 15px;
-    margin: 60px 0 0px 0;
-  }
-  .sec-9-right-down h6 {
-    margin-top: 47px;
-    font-size: 12px;
-  }
-  .sec-9-second-div-left img {
-    width: 246px;
-    margin-top: 12px;
-  }
+ /* sec-9 */
+ .sec-9-content {
+  padding: 0;
+  margin: 0;
+}
+.sec-9-heading h2 {
+  font-size: 29px;
+  max-width: 100%;
+}
+.sec-9-right-down {
+  padding: 0;
+}
+.sec-9-right-down p {
+  font-size: 15px;
+}
 
   /* ui-ux-faq-sec */
   .ui-ux-heading-part h2 {
@@ -2224,8 +2264,7 @@
   }
 
   /* sec-13 */
-  .sec-13-content h2 {
-    font-size: 26px;
-    max-width: 100%;
-  }
+  .sec-13-content {
+    margin: 1px 0 20px 0;
+}
 }
