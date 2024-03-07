@@ -16,23 +16,25 @@
 }
 .banner h1 {
   font-family: "Poppins", sans-serif;
-
-  font-size: 52px;
+  font-size: 55px;
   line-height: 1.2;
 }
-.banner h3 {
+.banner-section-para {
   font-family: "Inter", sans-serif;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 20px 0 0 0;
 }
-.banner p {
+.banner-para {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  max-width: 80%;
+  margin: 15px 0 0 0;
+}
+.box-row p {
   font-family: "Inter", sans-serif;
   font-size: 19px;
   margin: 10px 0 0 0;
-}
-.banner-para {
-  max-width: 80%;
 }
 .banner button {
   font-family: "Poppins", sans-serif;
@@ -66,16 +68,20 @@
   align-items: center;
   margin-top: 10px;
 }
-h5 {
-  font-family: "Inter", sans-serif;
-}
-h6 {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-}
 .text {
   margin-left: 10px;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+.text-h5 {
+  font-size: 13.28px;
+  font-family: "Inter", sans-serif;
+}
+.text-h6 {
+  font-size: 10.72;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 /* carousel section */
@@ -120,12 +126,11 @@ h6 {
   align-items: center;
   margin: 10px 10px 35px 10px;
 }
-.heading-part h2 {
+.heading-part span {
   font-family: "Poppins", sans-serif;
   font-size: 42px;
   font-weight: 600;
   line-height: 1.2;
-  /* max-width: 106%; */
 }
 .heading-part p {
   font-family: "Inter", sans-serif;
@@ -141,18 +146,18 @@ h6 {
   max-width: 39%;
   padding: 15px;
 }
-.left-side h3 {
+.left-side p {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.23;
   margin-top: 20px;
 }
-.left-side h3 .e-letter {
+.left-side p .e-letter {
   font-size: 36px;
   color: #086ad8;
 }
-.left-side h3 .very {
+.left-side p .very {
   font-size: 18px;
   color: #086ad8;
 }
@@ -183,7 +188,7 @@ h6 {
   padding: 10px;
   margin-bottom: 20px;
 }
-.right-side h3 {
+.right-side span {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 31px;
@@ -207,18 +212,6 @@ h6 {
   background-color: black;
 }
 
-/* fourth-section */
-.fourth-section {
-  max-width: 1214px;
-  margin: 0 auto;
-  padding: 0 20px;
-  padding: 0;
-  padding: 30px 6px 0 8px;
-}
-.fourth-section img {
-  width: 100%;
-}
-
 /* award-section */
 .award-section-root {
   max-width: 1300px;
@@ -229,9 +222,10 @@ h6 {
 }
 .award-section-container h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 700;
   max-width: 60%;
+  line-height: 1.2;
 }
 .main-image-container {
   display: flex;
@@ -251,7 +245,7 @@ h6 {
 .image-container span {
   font-family: "Poppins", sans-serif;
   margin: 0 10px 0 10px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
 }
 
@@ -781,19 +775,24 @@ h6 {
     padding: 40px 20px 0;
   }
   .banner h1 {
-    font-size: 41px;
+    font-size: 46px;
   }
-  .banner h3 {
+  .banner-section-para {
     font-size: 20px;
     margin: 20px 0 0;
   }
-  .banner p {
-    font-size: 15px;
+  .banner-para {
+    font-size: 18px;
+    margin: 15px 0 0;
+    max-width: 95%;
+  }
+  .box-row p {
+    font-size: 18px;
     margin: 15px 0 0;
   }
   .banner button {
     margin: 25px 0 0;
-    padding: 16px 30px;
+    padding: 10px 12px;
   }
   .box-row {
     flex-wrap: wrap;
@@ -801,6 +800,7 @@ h6 {
   .box {
     width: calc(50% - 20px);
     margin: 10px;
+    padding: 10px;
   }
 
   /* carousel-section */
@@ -823,16 +823,16 @@ h6 {
   }
 
   /* third-section */
-  .heading-part h2 {
+  .heading-part span {
     font-family: "Poppins", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 1.2;
   }
   .heading-part p {
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
   }
   .left-side {
     max-width: 50%;
@@ -841,10 +841,10 @@ h6 {
     width: 300px;
     height: 301px;
   }
-  .left-side h3 {
-    font-size: 15px;
+  .left-side p {
+    font-size: 16px;
   }
-  .right-side h3 {
+  .right-side span {
     font-size: 25px;
   }
   .right-side p {
@@ -853,23 +853,24 @@ h6 {
   .right-side button {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px 12px;
+    font-size: 16px;
   }
 
   /* award-section */
-  .image-container {
-    max-width: 30%;
-    padding: 5px;
-  }
   .award-section-container h2 {
     max-width: 79%;
-    font-size: 35px;
-    line-height: 1.2;
+    font-size: 41px;
   }
   .main-image-container {
     display: flex;
     max-width: 83%;
     align-items: center;
     justify-content: center;
+  }
+  .image-container {
+    max-width: 30%;
+    padding: 5px;
   }
   .image-container span {
     font-family: "Poppins", sans-serif;
@@ -1043,28 +1044,24 @@ h6 {
 }
 
 @media (min-width: 941px) and (max-width: 1024px) {
-  /* banner-section */
-  .box {
-    padding: 8px;
-  }
-  .banner p {
-    font-size: 18px;
-  }
-  .banner button {
-    font-size: 16px;
-    padding: 15px 21px;
-  }
+/* banner-section */
+.box {
+  padding: 10px;
+}
+.box-row p {
+  font-size: 18px;
+}
 
-  /* carousel-section */
-  .logo-image img {
-    margin: 15px 8px;
-    width: 146px;
-  }
+/* carousel-section */
+.logo-image img {
+  margin: 15px 8px;
+  width: 146px;
+}
 
-  /* .third-section */
-  .left-side {
-    max-width: 46%;
-  }
+/* .third-section */
+.left-side {
+  max-width: 46%;
+}
 
   /* section-6 */
   .sec-6-box-1-right p {
@@ -1146,22 +1143,25 @@ h6 {
     padding: 20px 15px 0 15px;
   }
   .banner h1 {
-    font-size: 29px;
+    font-size: 31px;
   }
-  .banner h3 {
-    font-size: 18px;
-    margin: 12px 0 0;
-    font-weight: 600;
+  .banner-section-para {
+    font-size: 17px;
+    margin: 15px 0 0;
   }
-  .banner p {
+  .banner-para {
     font-size: 16px;
-    margin: 22px 0 0;
+    margin: 8px 0 0;
     max-width: 100%;
   }
+  .box-row p {
+    font-size: 16px;
+    margin: 8px 0 0;
+  }
   .banner button {
-    margin: 22px 0 0;
-    padding: 8px 13px;
-    font-size: 15px;
+    margin: 15px 0 0;
+    padding: 10px 12px;
+    font-size: 14px;
   }
   .box-row {
     flex-direction: column;
@@ -1171,7 +1171,6 @@ h6 {
   .box {
     width: 86%;
     margin: 10px 0;
-    padding: 8px;
   }
   .circle img {
     width: 35px;
@@ -1202,14 +1201,13 @@ h6 {
     display: flex;
     flex-direction: column;
   }
-  .heading-part h2 {
-    line-height: 1.12;
+  .heading-part span {
+    line-height: 1.15;
     font-size: 29px;
     margin-bottom: 18px;
   }
   .heading-part p {
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 16px;
     max-width: 100%;
   }
   .grid-div-root {
@@ -1222,17 +1220,17 @@ h6 {
     text-align: center;
   }
   .left-side img {
-    width: 220px;
-    height: 221px;
+    width: 277px;
+    height: 274px;
   }
-  .left-side h3 {
-    font-size: 15px;
+  .left-side p {
+    font-size: 16px;
     text-align: left;
   }
   .right-side {
     max-width: 100%;
   }
-  .right-side h3 {
+  .right-side span {
     font-size: 24px;
   }
   .right-side p {
@@ -1240,10 +1238,11 @@ h6 {
   }
   .right-side button {
     font-size: 14px;
-    padding: 15px;
+    padding: 10px 12px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
 
   /* award-section */
   .award-section-container h2 {
@@ -1255,10 +1254,10 @@ h6 {
     display: flex;
     flex-direction: column;
     max-width: 50%;
-
     align-items: center;
     justify-content: center;
   }
+
   .image-container {
     max-width: 30%;
   }
@@ -1516,17 +1515,22 @@ h6 {
     padding: 10px;
   }
   .banner h1 {
-    font-size: 36px;
+    font-size: 40px;
   }
-  .banner h3 {
+  .banner-section-para {
     font-size: 18px;
   }
-  .banner p {
+  .banner-para {
+    font-size: 17px;
+    max-width: 100%;
+  }
+  .box-row p {
     font-size: 16px;
+    max-width: 100%;
   }
   .banner button {
-    font-size: 16px;
-    padding: 10px 10px;
+    font-size: 14px;
+    padding: 10px 12px;
   }
   .box-row {
     width: 100%;
@@ -1539,8 +1543,7 @@ h6 {
   .box {
     width: 45%;
     margin: 10px;
-    padding: 5px;
-    font-weight: 400;
+    padding: 10px;
   }
 
   /* carousel-section */
@@ -1554,7 +1557,11 @@ h6 {
     max-width: 45%;
   }
   .carousel-section span {
-    max-width: 40%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 60%;
+    margin-right: 63px;
   }
 
   /* third-section */
@@ -1562,13 +1569,13 @@ h6 {
     display: flex;
     flex-direction: column;
   }
-  .heading-part h2 {
-    font-size: 30px;
+  .heading-part span {
+    font-size: 35px;
   }
   .heading-part p {
     font-size: 16px;
     max-width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .grid-div-root {
     display: flex;
@@ -1580,34 +1587,32 @@ h6 {
     text-align: center;
   }
   .left-side img {
-    width: 220px;
-    height: 221px;
+    width: 261px;
+    height: 277px;
   }
-  .left-side h3 {
-    font-size: 15px;
+  .left-side p {
+    font-size: 16px;
     text-align: left;
   }
   .right-side {
     max-width: 100%;
   }
-  .right-side h3 {
-    font-size: 24px;
+  .right-side span {
+    font-size: 29px;
   }
   .right-side p {
     font-size: 16px;
   }
   .right-side button {
     font-size: 14px;
-    padding: 15px;
+    padding: 10px 12px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
-
   /* award-section */
   .award-section-container h2 {
     max-width: 90%;
-    font-size: 35px;
-    line-height: 1.2;
+    font-size: 40px;
   }
   .main-image-container {
     display: flex;
@@ -1620,6 +1625,7 @@ h6 {
   .image-container {
     max-width: 30%;
   }
+
 
   /* section 6 */
   .sec-6-heading h2 {
@@ -1778,21 +1784,26 @@ h6 {
     padding: 20px 10px 0;
   }
   .banner h1 {
-    font-size: 30px;
+    font-size: 38px;
   }
-  .banner h3 {
+  .banner-section-para {
     font-size: 17px;
     margin: 15px 0 0;
   }
-  .banner p {
-    font-size: 15px;
+  .banner-para {
+    font-size: 16px;
+    margin: 8px 0 0;
     max-width: 100%;
-    margin-top: 20px;
+  }
+  .box-row p {
+    font-size: 16px;
+    margin: 8px 0 0;
+    max-width: 100%;
   }
   .banner button {
-    font-size: 14px;
     margin: 15px 0 0;
-    padding: 12px 10px;
+    padding: 10px 12px;
+    font-size: 14px;
   }
   .box-row {
     flex-direction: column;
@@ -1817,6 +1828,7 @@ h6 {
     text-align: center;
     max-width: unset;
     margin-right: unset;
+    font-size: 18px;
   }
   .carousel-between {
     flex-direction: column;
@@ -1833,9 +1845,9 @@ h6 {
     display: flex;
     flex-direction: column;
   }
-  .heading-part h2 {
+  .heading-part span {
     line-height: 1.15;
-    font-size: 29px;
+    font-size: 35px;
     margin-bottom: 18px;
   }
   .heading-part p {
@@ -1852,34 +1864,32 @@ h6 {
     text-align: center;
   }
   .left-side img {
-    width: 220px;
-    height: 221px;
+    width: 274px;
+    height: 269px;
   }
-  .left-side h3 {
+  .left-side p {
     font-size: 16px;
     text-align: left;
   }
   .right-side {
     max-width: 100%;
   }
-  .right-side h3 {
+  .right-side span {
     font-size: 24px;
   }
   .right-side p {
     font-size: 16px;
   }
   .right-side button {
-    font-size: 14px;
+    font-size: 12px;
     padding: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
-
   /* award-section */
   .award-section-container h2 {
     max-width: 90%;
-    font-size: 29px;
-    line-height: 1.2;
+    font-size: 35px;
   }
   .main-image-container {
     display: flex;
@@ -2092,27 +2102,30 @@ h6 {
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
-  /* banner-section */
-  .banner h1 {
-    font-size: 32px;
-  }
-  .box {
-    width: 86%;
-    margin: 10px 0;
-    padding: 8px;
-  }
+/* banner-section */
+.banner {
+  padding: 10px 10px;
+}
+.banner h1 {
+  font-size: 30px;
+}
+.box {
+  padding: 5px;
+}
+.box-row p {
+  font-size: 15px;
+}
 
-  /* third-section */
-  .heading-part h2 {
-    line-height: 1.12;
-    font-size: 25px;
-    margin-bottom: 18px;
-  }
-
-  /* award-section */
-  .award-section-container h2 {
+/* thord-section */
+.heading-part span {
+  line-height: 1.15;
+  font-size: 25px;
+  margin-bottom: 18px;
+}
+   /* award-section */
+   .award-section-container h2 {
     max-width: 100%;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 1.4;
   }
 
@@ -2130,17 +2143,17 @@ h6 {
   .sec-7-left-top p {
     font-size: 15px;
     max-width: 100%;
-}
-.sec-7-right-part h2 {
-  max-width: 100%;
-  font-size: 26px;
-}
-.sec-7-right-part p {
-  max-width: 100%;
-  margin: 18px 0;
-  font-size: 16px;
-  padding: 0;
-}
+  }
+  .sec-7-right-part h2 {
+    max-width: 100%;
+    font-size: 26px;
+  }
+  .sec-7-right-part p {
+    max-width: 100%;
+    margin: 18px 0;
+    font-size: 16px;
+    padding: 0;
+  }
 
   /* eight-section */
   .sec-8-content {
@@ -2179,13 +2192,13 @@ h6 {
   }
 
   /* .sec-9 */
-  .sec-9-root{
+  .sec-9-root {
     padding: 0 10px;
   }
   .sec-9-heading h2 {
     font-size: 26px;
     max-width: 100%;
-}
+  }
   .sec-9-content {
     padding: 15px;
     margin: 60px 0 0px 0;
@@ -2203,16 +2216,16 @@ h6 {
   .ui-ux-heading-part h2 {
     font-size: 26px;
     line-height: 1.2;
-}
+  }
 
-/* sec-11 */
-.sec-11-top-div h2 {
-  font-size: 26px;
-}
+  /* sec-11 */
+  .sec-11-top-div h2 {
+    font-size: 26px;
+  }
 
   /* sec-13 */
   .sec-13-content h2 {
     font-size: 26px;
     max-width: 100%;
-}
+  }
 }
