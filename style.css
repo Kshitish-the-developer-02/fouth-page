@@ -18,6 +18,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 55px;
   line-height: 1.2;
+  max-width: 68%;
 }
 .banner-section-para {
   font-family: "Inter", sans-serif;
@@ -717,6 +718,7 @@
   line-height: 1.45;
 }
 
+/* section-13 */
 .sec-13-root {
   max-width: 1300px;
   margin: 0 auto;
@@ -915,6 +917,7 @@
   }
   .banner h1 {
     font-size: 46px;
+    max-width: 86%;
   }
   .banner-section-para {
     font-size: 20px;
@@ -1204,6 +1207,9 @@
 
 @media (min-width: 941px) and (max-width: 1024px) {
   /* banner-section */
+  .banner h1 {
+    max-width: 75%;
+  }
   .box {
     padding: 10px;
   }
@@ -1316,6 +1322,20 @@
     font-size: 17px;
     max-width: 100%;
   }
+
+  /* sec-7 */
+  .sec-7-content {
+    width: 100%;
+  }
+  .sec-7-right-part h2{
+    max-width: 85%;
+  }
+
+  /* sec-8 */
+  .eight-sec-content {
+    width: 100%;
+    gap: 50px;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -1325,6 +1345,7 @@
   }
   .banner h1 {
     font-size: 31px;
+    max-width: 100%;
   }
   .banner-section-para {
     font-size: 17px;
@@ -1424,8 +1445,8 @@
     margin-bottom: 15px;
   }
 
-   /* fourth-section */
-   .sec-4-content {
+  /* fourth-section */
+  .sec-4-content {
     max-width: 100%;
     padding: 30px 4px;
   }
@@ -1752,6 +1773,7 @@
   }
   .banner h1 {
     font-size: 40px;
+    max-width: 86%;
   }
   .banner-section-para {
     font-size: 18px;
@@ -1846,24 +1868,24 @@
     margin-bottom: 15px;
   }
 
-    /* fourth-section */
-    .sec-4-content {
-      max-width: 100%;
-      padding: 30px 4px;
-    }
-    .sec-4-div-1 span {
-      font-size: 22px;
-    }
-    .sec-4-para-1 {
-      font-size: 11px;
-    }
-    .sec-4-para-2 {
-      font-size: 11px;
-      max-width: 55%;
-    }
-    .sec-4-para-3 {
-      font-size: 11px;
-    }
+  /* fourth-section */
+  .sec-4-content {
+    max-width: 100%;
+    padding: 30px 4px;
+  }
+  .sec-4-div-1 span {
+    font-size: 22px;
+  }
+  .sec-4-para-1 {
+    font-size: 11px;
+  }
+  .sec-4-para-2 {
+    font-size: 11px;
+    max-width: 55%;
+  }
+  .sec-4-para-3 {
+    font-size: 11px;
+  }
 
   /* award-section */
   .award-section-container h2 {
@@ -2060,6 +2082,7 @@
   }
   .banner h1 {
     font-size: 38px;
+    max-width: 97%;
   }
   .banner-section-para {
     font-size: 17px;
@@ -2162,8 +2185,8 @@
     margin-bottom: 15px;
   }
 
-   /* fourth-section */
-   .sec-4-content {
+  /* fourth-section */
+  .sec-4-content {
     max-width: 100%;
     padding: 30px 4px;
   }
@@ -2429,6 +2452,7 @@
   }
   .banner h1 {
     font-size: 30px;
+    max-width: 100%;
   }
   .box {
     padding: 5px;
@@ -2549,24 +2573,24 @@
     font-size: 15px;
   }
 
-    /* fourth-section */
-    .sec-4-content{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .sec-4-div-1 {
-      max-width: 100%;
-      border-right: none;
-      align-items: center;
-      padding: 16px 0;
-      border-bottom: 2px solid #efe9e9;
+  /* fourth-section */
+  .sec-4-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-    .sec-4-div-1::after {
-      display: none;
-    }
-    .sec-4-para-1 {
-      font-size: 16px;
+  .sec-4-div-1 {
+    max-width: 100%;
+    border-right: none;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 2px solid #efe9e9;
+  }
+  .sec-4-div-1::after {
+    display: none;
+  }
+  .sec-4-para-1 {
+    font-size: 16px;
   }
   .sec-4-div-1 span {
     font-size: 20px;
